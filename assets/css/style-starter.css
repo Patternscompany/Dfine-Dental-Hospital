@@ -4691,7 +4691,7 @@ fieldset:disabled .btn {
 }
 
 .whatsapp-link:hover .whatsapp {
-  color: #e31a1a;
+  color: var(--primary-color);
 }
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
