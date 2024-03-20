@@ -7313,7 +7313,7 @@ fieldset:disabled .btn {
   right: 0;
   left: 0;
   z-index: 1030;
-  background-color: var(--bg-color);
+  background-color: var(--bs-gray-dark);
 }
 
 .fixed-bottom {
@@ -19460,12 +19460,12 @@ p.sub-title {
 }
 @media (max-width: 992px) {
   #demo-1 {
-    /* background: url(../images/banner1mobile.jpg); */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
+    background: url(../images/banner1mobile.jpg); 
+     background-repeat: no-repeat;
+    background-size: cover;
   }
 }
-#demo-1:before {
+/*#demo-1:before {
   /* content: "";
 
  
@@ -19476,7 +19476,7 @@ p.sub-title {
   width: 100%;
   height: 100%;
   z-index: 2; */
-}
+
 
 .demo-inner-content {
   position: relative;
