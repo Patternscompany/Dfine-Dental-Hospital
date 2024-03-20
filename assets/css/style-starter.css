@@ -19443,7 +19443,7 @@ p.sub-title {
 /* banner */
 #demo-1 {
   /* background: url(../images/banner1.jpg) no-repeat; */
-  background-size: cover;
+  /* background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19451,19 +19451,36 @@ p.sub-title {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 800px;
+height: 100vh;
   display: flex;
   align-items: center;
-  min-height: 100vh;
+ 
   z-index: 0;
-  margin-top: 4rem;
+  margin-top: 4rem; */
 }
 @media (max-width: 992px) {
+  #home #myVideo{
+    display: none;
+  }
   #demo-1 {
     background: url(../images/banner1mobile.jpg); 
      background-repeat: no-repeat;
     background-size: cover;
   }
+   .banner-info p {
+                font-size: 20px;
+            }
+
+            .banner-info h1 {
+                font-size: 20px;
+            }
+            .btn-style {
+                padding: 10px 12px !important;
+            }
+            .about-hospital{
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
 }
 /*#demo-1:before {
   /* content: "";
