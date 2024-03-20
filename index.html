@@ -1,0 +1,980 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dfine Dental Hospital</title>
+    <!-- google font -->
+    <link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link rel="icon" href="./assets/images/dfine-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- BaguetteBox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
+</head>
+
+<body>
+    <!--whatsapp link-->
+
+    <a href="https://wa.me/+919193945678" class="whatsapp-link"><i class="fab fa-whatsapp whatsapp"></i>
+        <div>
+            <p>Chat with Us!</p>
+        </div>
+    </a>
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+        <img src="./assets/images/dfine-logo.jpg" alt="Dfine Dental Care" style="width:150px;" />
+        <div class="loader"></div>
+    </div>
+    <!--loader-->
+    <!--whatsapp link-->
+    <!-- header -->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/">
+                    <!-- <i class="fas fa-tooth"></i>V-Smilez Dental -->
+                    <img src="./assets/images/dfine-logo.jpg" alt="Dfine Dental Care" class="logo" />
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto me-2 my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item  drop-down">
+                            <div class="drop">
+                                <a class="nav-link " href="./service.html">Services</a>
+                                <p class="nav-link" id="plus">+</p>
+                            </div>
+
+                            <ul class="drop-items">
+                                <li><a href="./services/Dental-Implants.html">Dental Implants</a></li>
+                                <li><a href="#">Smile Designing</a></li>
+                                <li><a href="#">Teeth Whitening</a></li>
+                                <li><a href="#">Preventive Dentistry</a></li>
+                                <li><a href="#">Tooth Colored Fillings</a></li>
+                                <li><a href="#">Advanced Dentures</a></li>
+                                <li><a href="#">Zirconia & Laser
+                                        <br>Sintered & Bridges</a></li>
+                                <li><a href="#">Root Canal Treatement</a></li>
+                                <li><a href="#">Laser-flap-surgeries</a></li>
+                                <li><a href="#">Invisible Aligners</a></li>
+                                <li><a href="#">Pediaric Dentistry</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./appointment.html">Book An Appointment</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="cont-ser-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <style>
+
+    </style>
+    <!-- banner section -->
+
+    <section class="w3l-main-slider" id="home">
+        <video autoplay muted loop id="myVideo" loading="lazy">
+            <source src="./assets/images/hero-video1.mp4" type="video/mp4">
+        </video>
+        <div class="banner-content">
+            <div id="demo-1">
+                <div class="demo-inner-content">
+                    <div class="container">
+                        <div class="banner-info">
+                            <p class="mb-1">Elevate your smile’s with our</p>
+                            <h1 style="color: white;font-weight: 800;">Best Dental Clinic in Dilsukhnagar</h1>
+                            <a class="btn btn-style btn-style-2 mt-sm-5 mt-4 book" href="#">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //banner section -->
+    <style>
+        #home {
+            position: relative;
+            width: 100vw !important;
+            height: 100vh;
+        }
+
+        #home #myVideo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+        }
+
+        @media(max-width:992px) {
+            #home {
+                height: 40vh;
+            }
+
+            .banner-info p {
+                font-size: 20px;
+            }
+
+            .banner-info h1 {
+                font-size: 20px;
+            }
+
+            #demo-1 {
+                min-height: 40vh;
+
+            }
+
+            .btn-style {
+                padding: 10px 12px !important;
+            }
+
+        }
+
+        @media(max-width:600px) {
+            #home {
+
+                height: 40vh;
+            }
+
+            #demo-1 {
+                min-height: 50vh;
+            }
+
+
+        }
+    </style>
+    <!-- home block 1 -->
+    <section class="w3l-servicesblock py-5">
+        <div class="container py-md-5 py-4">
+            <div class="row pb-xl-5 align-items-center">
+                <div class="col-lg-6 position-relative home-block-3-left pb-lg-0 pb-5">
+                    <div class="position-relative mobile">
+                        <img src="./assets/images/dfine-doctor.jpg" alt="Dfine Dental Care"
+                            class="img-fluid w-100 radius-image">
+                    </div>
+                    <div class="imginfo__box">
+                        <h6 class="imginfo__title">Get a Appointment Today!</h6>
+                        <p>Seize the opportunity to prioritize your oral health – schedule an appointment today for
+                            personalized and comprehensive dental care.</p>
+                        <a href="tel:+919381758514"><i class="fas fa-phone-alt"></i>+919381758514</a>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6  mt-lg-0 mt-5 pt-lg-0 pt-5 about-content">
+                    <h3 class="title-style mb-md-5 mb-4">A Warm <span>Welcome</span> and a Beautiful <span>Smile</span>
+                    </h3>
+                    <!-- <p class="sub-para">"Our clients are our priority, we offer quality dental services with a team of
+                        specialists. More details about our services below".</p> -->
+                    <p class="mt-4 pt-sm-2">Welcome to our dental clinic, where we prioritize your oral health and
+                        well-being. Our experienced team of dental professionals is dedicated to providing comprehensive
+                        and personalized care. From routine check-ups to specialized treatments, we strive to create a
+                        comfortable and friendly environment. With state-of-the-art technology, we ensure precise
+                        diagnostics and effective treatments. Your smile is our priority, and we offer services ranging
+                        from preventive dentistry to cosmetic related advanced treatment. </p>
+                    <p class="mt-4 pt-sm-2">Emphasizing patient education, we guide you towards optimal oral hygiene
+                        practices. At our clinic, we understand the importance of a healthy and confident smile, and we
+                        are committed to delivering exceptional dental care tailored to your unique needs. Schedule your
+                        appointment today and experience the difference in our approach to dental wellness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //home block 1 -->
+    <style>
+        .w3l-servicesblock .about-content {
+            margin-left: 1.5rem !important;
+        }
+
+        @media(max-width:992px) {
+            /* .w3l-servicesblock .mobile {
+                display: none;
+            } */
+
+            .w3l-servicesblock .about-content {
+                margin-left: 0 !important;
+            }
+        }
+    </style>
+    <!-- home block 2 -->
+    <section class="about-section text-center pt-lg-5 pb-5">
+        <div class="container pt-lg-5 pb-lg-5 pb-4">
+            <h3 class="title-style text-center mb-5">Healthy Smiles <span>Everyday!</span></h3>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6  mt-4">
+                    <div class="about-single p-3">
+                        <div class="about-icon mb-4">
+                            <!-- <i class="fas fa-user-md"></i> -->
+                            <img src="./assets/images/dental-implant.png" alt="">
+                        </div>
+                        <div class="about-content">
+                            <h5 class="mb-3"><a href="#">Dental Implants</a></h5>
+                            <p>
+                                Dental implants are titanium posts surgically placed into the jawbone to support
+                                artificial teeth, offering a durable and natural-looking solution for missing teeth.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="about-single p-3">
+                        <div class="about-icon mb-4">
+                            <img src="./assets/images/tooth-whitening-everything-you-need-to-know.jpg" alt="">
+                        </div>
+                        <div class="about-content">
+                            <h5 class="mb-3"><a href="#">Tooth Whitening</a></h5>
+                            <p>
+
+                                Professional tooth whitening at a dental clinic brightens your smile, removing stains
+                                and discoloration for a visibly whiter appearance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+
+                    <div class="about-single p-3">
+                        <div class="about-icon mb-4">
+                            <!-- <i class="fas fa-wheelchair"></i> -->
+                            <img src="./assets/images/Pediatric-Dentistry.jpeg" alt="Pediaric-Dentistry" />
+                        </div>
+                        <div class="about-content">
+                            <h5 class="mb-3"><a href="#">Pediatric Dentistry</a></h5>
+                            <p>
+                                Specialized dental care for children, promoting oral health and addressing developmental
+                                needs in a child-friendly clinic environment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="about-single p-3">
+                        <div class="about-icon mb-4">
+                            <!-- <i class="fas fa-tooth"></i> -->
+                            <img src="./assets/images/Smile-Designing.jpeg" alt="">
+                        </div>
+                        <div class="about-content">
+                            <h5 class="mb-3"><a href="#">Smile Designing</a></h5>
+                            <p>
+                                Enhance your smile at our dental clinic with expert smile designing, combining artistry
+                                and precision for a confident, radiant transformation.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="about-single p-3">
+                        <div class="about-icon mb-4">
+                            <!-- <i class="fas fa-crutch"></i> -->
+                            <img src="./assets/images/preventive dentestry-.jpeg" alt="">
+                        </div>
+                        <div class="about-content">
+                            <h5 class="mb-3"><a href="#">Preventive Dentistry</a></h5>
+                            <p>
+                                Preventive dentistry in a dental clinic focuses on proactive measures, such as regular
+                                cleanings and check-ups, to maintain optimal oral health and prevent potential dental
+                                issues.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <div class="about-single p-3">
+                        <div class="about-icon mb-4">
+                            <!-- <i class="fas fa-teeth"></i> -->
+                            <img src="./assets/images/Tooth colour filling.jpeg" alt="">
+                        </div>
+                        <div class="about-content">
+                            <h5 class="mb-3"><a href="#">Tooth Colored Fillings</a></h5>
+                            <p>
+                                Tooth-colored fillings, also known as composite fillings, blend seamlessly with natural
+                                teeth, providing a discreet and aesthetically pleasing solution for dental cavities in
+                                modern clinics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="learn">
+                <div class="row justify-content-center mt-3">
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="about-single p-3">
+                            <div class="about-icon mb-4">
+                                <!-- <i class="fas fa-user-md"></i> -->
+                                <img src="./assets/images/advance dentures.jpg" alt="Pediaric-Dentistry" />
+                            </div>
+                            <div class="about-content">
+                                <h5 class="mb-3"><a href="#">Advanced Dentures</a></h5>
+                                <p>
+                                    Experience the future of dentistry with advanced dentures at our clinic, seamlessly
+                                    blending comfort and aesthetics for a natural, confident smile.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="about-single p-3">
+                            <div class="about-icon mb-4">
+                                <!-- <i class="fas fa-teeth-open"></i> -->
+                                <img src="./assets/images/Zirconia  Laser br Sintered Crown  Bridges.jpeg"
+                                    alt="Zirconia-Laser-SinteredCrown-Bridges" />
+                            </div>
+                            <div class="about-content">
+                                <h5 class="mb-3"><a href="#">Zirconia
+                                        & Laser<br>Sintered Crown & bridges</a>
+                                </h5>
+                                <p>
+                                    Zirconia, a durable ceramic material, is commonly used in dental clinics for
+                                    laser-sintered crowns and bridges, providing patients with aesthetically pleasing
+                                    and long-lasting restorative solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4">
+
+                        <div class="about-single p-3">
+                            <div class="about-icon mb-4">
+                                <!-- <i class="fas fa-thin fa-teeth"></i> -->
+                                <img src="./assets/images/Root canel.jpg" alt="Root-Canal-treatment" />
+                            </div>
+                            <div class="about-content">
+                                <h5 class="mb-3"><a href="#">Root Canal Treatment</a>
+                                </h5>
+                                <p>
+                                    Root canal treatment involves removing infected or damaged pulp from a tooth's
+                                    interior, followed by cleaning, shaping, and sealing the root canal to save the
+                                    tooth from extraction.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="about-single p-3">
+                            <div class="about-icon mb-4">
+                                <!-- <i class="fas fa-tooth"></i> -->
+                                <img src="./assets/images/laser flap surgery.jpeg" alt="Laser-flap-surgeries" />
+                            </div>
+                            <div class="about-content">
+                                <h5 class="mb-3"><a href="#">Laser Flap Surgeries</a>
+                                </h5>
+                                <p>Laser flap surgeries in dental clinics involve using focused laser beams to precisely
+                                    and painlessly sculpt gum tissues, promoting faster healing and minimizing
+                                    discomfort for patients.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 mt-4">
+                        <div class="about-single p-3">
+                            <div class="about-icon mb-4">
+                                <!-- <i class="fas fa-crutch"></i> -->
+                                <img src="./assets/images/invisible-aligners.jpeg" alt="Invisible-Aligners" />
+                            </div>
+                            <div class="about-content">
+                                <h5 class="mb-3"><a href="#">Invisible Aligners</a>
+                                </h5>
+                                <p>
+                                    Invisible aligners are a discreet orthodontic solution offered at dental clinics,
+                                    providing a nearly invisible way to straighten teeth and achieve a confident smile.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <button class="btn btn-style mt-5 learnBtn">More...</button>
+        </div>
+    </section>
+    <style>
+        .learn {
+            display: none;
+
+        }
+
+        .learn.active {
+            display: block;
+        }
+
+        .about-section .about-single .about-icon {
+            height: 300px;
+        }
+
+        .about-section .mt-4 {}
+
+        .about-section .mt-4 .about-single {
+            /* border: 1px solid rgba(0, 0, 0, 0.5); */
+            border-radius: 20px;
+            background-color: white;
+        }
+
+
+
+        .about-section .mt-4:hover .about-single {
+            box-shadow: 10px 10px 20px #dab05f, -10px -10px 20px #dab05f;
+            transform: translate(-5px, -10px);
+            transition: 1s ease;
+            border-radius: 20px;
+
+        }
+
+        .about-section .about-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+    <script>
+        const pop = document.querySelector(".learn");
+        const learnBtn = document.querySelector(".learnBtn");
+
+        learnBtn.addEventListener("click", () => {
+            if (!pop.classList.contains("active")) {
+                // If the "active" class is not present, add it
+                pop.classList.add("active");
+
+                learnBtn.textContent = "Less";
+            } else {
+                // If the "active" class is present, remove it
+                pop.classList.remove("active");
+                // Assuming you want to show the button again
+                learnBtn.textContent = "More..."; // Set the original button text
+            }
+        })
+
+    </script>
+    <!-- //home block 2 -->
+
+    <!-- <form action="?" method="POST">
+        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+        <br />
+        <input type="submit" value="Submit">
+    </form> -->
+    <section class="abt_sections">
+        <div class="container">
+            <div class="know_abt">
+                <h2>Dfine Dental</h2>
+                <h3>Excellence in Dentistry with Optimum Care</h3>
+                <p>Dfine Dental is committed to delivering excellence in dentistry, ensuring that every patient
+                    receives optimal care for their oral health. The clinic is committed to delivering top-notch dental
+                    services
+                    with a focus on precision and expertise. The team at Dfine Dental consists of highly skilled and
+                    experienced professionals who prioritize patient comfort and well-being. From routine check-ups to
+                    complex dental procedures, the clinic offers a comprehensive range of services to address diverse
+                    dental needs.<a href="#">Read More ...</a> </p>
+
+            </div>
+            <div class="row mvv_list_row align-items-center">
+
+                <div class="mvv_list col-md-4">
+                    <div class="mvv_list_info">
+                        <h3>Mission</h3>
+                        <p>Our mission is to bring healthcare of International standards within the reach of every
+                            individual. We are committed to the achievement <a href="#">Read More ...</a>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="mvv_list col-md-4">
+
+                    <div class="mvv_list_info">
+                        <h3>Vision</h3>
+                        <p>To provide a world class integrated healthcare system, with a focus on compassionate
+                            patient care to the underprivileged people <a href="#">Read More ...</a></p>
+                    </div>
+                </div>
+
+
+                <div class="mvv_list col-md-4">
+
+                    <div class="mvv_list_info">
+                        <h3>Values</h3>
+                        <p>Our commitment core values stand on the principles of truth and dedication. Providing
+                            high-quality dental care ensuring a caring <a href="#">Read More ...</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <style>
+        @media(max-width:992px) {
+            .row.mvv_list_row {
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    </style>
+    <!-- stats section -->
+    <section class="w3-bottom-stats py-5">
+        <div class="container py-md-5 py-4">
+            <div class="row py-4">
+                <div class="col-md-7 pe-lg-5">
+                    <h5 class="text-new mb-4">We are proud to have the opportunity to give you the smile of your dreams.
+                    </h5>
+                    <p class="mb-3">At our dental clinic, we take immense pride in offering you the opportunity to
+                        achieve the smile of your dreams. Our dedicated team of skilled professionals is committed to
+                        providing personalized and comprehensive care to enhance the aesthetic appeal of your teeth.
+                    </p>
+                    <p>With cutting-edge technology and a focus on patient satisfaction, we tailor our treatments to
+                        address your unique dental concerns. From cosmetic enhancements to advanced procedures, we
+                        strive to make your dream smile a reality, ensuring you leave our clinic with renewed confidence
+                        and a radiant, captivating smile.</p>
+                    <a href="#" class="btn btn-style btn-style-2 mt-lg-5 mt-4">Learn More</a>
+                </div>
+                <div class="col-md-5 text-md-center mt-md-0 mt-5">
+                    <div class="counter">
+                        <div class="timer count-title count-number" data-to="6370" data-speed="1500">6370</div>
+                        <p class="count-text mt-sm-2">Happy Smiles</p>
+                    </div>
+                    <div class="counter mt-sm-5 mt-4">
+                        <div class="timer count-title count-number" data-to="36" data-speed="1500">30+</div>
+                        <p class="count-text mt-sm-2">Years of experience</p>
+                    </div>
+                    <div class="counter mt-sm-5 mt-4">
+                        <div class="timer count-title count-number" data-to="7600" data-speed="1500">7600</div>
+                        <p class="count-text mt-sm-2">Patients a year</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //stats section -->
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <h3 class="title-style text-center mb-5" style="text-decoration: underline;">Meet Our
+                    <span>Doctors</span>
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+
+                        <div class="img-wrap d-flex align-items-stretch">
+                            <div class="img align-self-stretch"
+                                style="background-image: url(./assets/images/dfine-doctor.jpg);background-position: center;">
+                            </div>
+                        </div>
+                        <div class="text pt-3 text-center">
+                            <h3>Dr. Srinivas Yalamanchi</h3>
+                            <span class="position mb-2">Prosthodontist , Implantologist</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="staff">
+                        <div class="img-wrap d-flex align-items-stretch">
+                            <div class="img align-items-stretch"
+                                style="background-image: url(./assets/images/team3.jpg);background-position: center;">
+                            </div>
+                        </div>
+
+                        <div class="text pt-3 text-center">
+                            <h3>Dr. 2</h3>
+                            <span class="position mb-2">Cosmetic/Aesthetic Dentist</span>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- videos section -->
+    <div class="w3l-homeblock2 py-5">
+        <div class="container py-md-5 py-4">
+            <h3 class="title-style text-center mb-5">Latest <span>Work</span> Videos</h3>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bg-clr-white hover-box">
+                        <div class="row align-items-center">
+                            <div class="col-sm-4 v">
+                                <video width="300" height="300" controls>
+                                    <source src="./assets/images/video1 (1).mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+
+                            </div>
+                            <div class="col-sm-4 v">
+
+                                <video width="300" height="300" controls>
+                                    <source src="./assets/images/video1 (2).mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="col-sm-4 v">
+
+                                <video width="300" height="300" controls>
+                                    <source src="./assets/images/video1 (3).mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="col-sm-4 v">
+
+                                <video width="300" height="300" controls>
+                                    <source src="./assets/images/video1 (4).mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- //videos section -->
+    <div class="w3l-homeblock2 py-5">
+        <div class="container py-md-5 py-4">
+            <h3 class="title-style text-center mb-5">Latest <span>Photos</span></h3>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="bg-clr-white hover-box">
+                        <div class="row align-items-center">
+                            <div class="col-sm-4 g">
+                                <a href="./assets/images/clinic1.jpg" data-caption="" class="gallery">
+                                    <img src="./assets/images/clinic1.jpg" alt="Opening Ceremony Image" />
+                                </a>
+
+                            </div>
+
+                            <div class="col-sm-4 g">
+                                <a href="./assets/images/clinic2.jpg" class="gallery">
+                                    <img src="./assets/images/clinic2.jpg" alt="" />
+                                </a>
+
+
+                            </div>
+                            <div class="col-sm-4 g">
+                                <a href="./assets/images/clinic3.jpg" class="gallery">
+                                    <img src="./assets/images/clinic3.jpg" alt="" />
+                                </a>
+
+                            </div>
+                            <div class="col-sm-4 g">
+                                <a href="./assets/images/clinic4.jpg" class="gallery">
+                                    <img src="./assets/images/clinic4.jpg" alt="" />
+                                </a>
+
+                            </div>
+                            <div class="col-sm-4 g">
+                                <a href="./assets/images/clinic5.jpg" class="gallery">
+                                    <img src="./assets/images/clinic5.jpg" alt="" />
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <style>
+        /* .v {
+            max-height: 300px;
+            width: 300px;
+        }
+
+        .v video {
+            width: 100%;
+            height: 100%;
+        } */
+        .g {
+            height: 350px;
+            width: 350px;
+            margin: 5px;
+        }
+
+        .g img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media(max-width:992px) {
+            .g {
+                width: 100%;
+            }
+        }
+
+        @media(max-width:575px) {
+            .g {
+                width: 100%;
+            }
+        }
+    </style>
+    
+    <!-- map -->
+    <div class="map">
+        <h3 class="title-style text-center mb-5">Our <span>Location</span></h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243583.7046096124!2d78.28188552812506!3d17.459935011579795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99c16f3e0f73%3A0x98f88c483ad986b2!2sDfine%20Dental%20Hospital!5e0!3m2!1sen!2sin!4v1710779259948!5m2!1sen!2sin"
+            width="100%" height="400" frameborder="0" style="border: 0px;" allowfullscreen=""></iframe>
+
+
+    </div>
+    <!-- call section -->
+    <section class="w3l-call-to-action-6">
+        <div class="container py-md-5 py-sm-4 py-5">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="left-content-call">
+                    <h3 class="title-big">Visit Now !</h3>
+                    <p class="text-white mt-1">Begin the change today</p>
+                </div>
+                <div class="right-content-call mt-sm-0 mt-4">
+                    <ul class="buttons">
+                        <li class="phone-sec me-lg-4"><i class="fas fa-phone-volume"></i><a class="call-style-w3"
+                                href="tel:+919193945678">9193945678</a></li>
+                        <li><a href="#" class="btn btn-style btn-style-2 mt-lg-0 mt-3">Book Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //call section -->
+
+    <!-- footer -->
+    <footer class="w3l-footer-29-main">
+        <div class="footer-29 pt-5 pb-4">
+            <div class="container pt-md-4">
+                <div class="row footer-top-29">
+                    <div class="col-md-5 footer-list-29 pe-xl-5">
+                        <h6 class="footer-title-29">Contact Info </h6>
+                        <p class="mb-2 pe-xl-5">Address : Sy No 29, Sri Shailajapushpa Chambers, 13-4-27/D,1st floor,
+                            Above Pai International Electronics Ltd, 1 Part 77/1, Vikas Nagar, Dilsukhnagar, Hyderabad,
+                            Telangana 500060. </p>
+                        <p class="mb-2">Phone Number : <a href="tel:+919193945678">+919193945678</a></p>
+                        <p class="mb-2">Email : <a href="mailto:dfinedental@gmail.com">dfinedental@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-4 footer-list-29 mt-md-0 mt-4">
+                        <ul>
+                            <h6 class="footer-title-29">About</h6>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Special Offers</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-4 ps-lg-5 ps-md-4 footer-list-29 mt-md-0 mt-4">
+                        <ul>
+                            <h6 class="footer-title-29">Social Links</h6>
+                            <li><a href="https://www.instagram.com/dfinedentalclinic/"><i class="fab fa-instagram"
+                                        style="columns: white;margin-right: 5px;"></i>Instagram</a></li>
+                            <li><a href="https://www.facebook.com/dental.dfine"><i class="fab fa-facebook"
+                                        style="columns: white;margin-right: 5px;"></i>Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-twitter"
+                                        style="columns: white;margin-right: 5px;"></i>Twitter</a></li>
+                            <li><a
+                                    href="https://www.linkedin.com/in/dr-srinivas-yelamanchi-52804092/?originalSubdomain=in"><i
+                                        class="fab fa-linkedin"
+                                        style="columns: white;margin-right: 5px;"></i>Linkedin</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-4 footer-list-29 mt-md-0 mt-4">
+                        <ul>
+                            <h6 class="footer-title-29">Dentition</h6>
+                            <li><a href="#doctor">Dr. Srinivas Yalamanchi</a></li>
+                            <li><a href="#doctor">Dr.2</a></li>
+                            <!-- <li><a href="#doctor">Dr3</a></li>
+                            <li><a href="#doctor">Dr4</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- copyright -->
+                <p class="copy-footer-29 text-center pt-lg-2 mt-5 pb-2">©
+                    <!-- <script>document.write(new Date().getFullYear());
+                    </script> -->
+                    <span id="year"></span>
+                    Dfine Dental Care. All rights reserved. Design by <a href="https://www.thepatternscompany.com/"
+                        target="_blank">The Patterns
+                        Company</a>
+                </p>
+                <!-- //copyright -->
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+
+    <!-- Js scripts -->
+    <!-- move top --><button onclick="topFunction()" id="movetop" title="Go to top"><span class="fas fa-level-up-alt"
+            aria-hidden="true"></span></button>
+    <script> // When the user scrolls down 20px from the top of the document, show the button
+
+
+
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- for services carousel slider -->
+    <script src="assets/js/owl.carousel.js"></script>
+    <script>$(document).ready(function () {
+            $('.owl-three').owlCarousel({
+
+                loop: true,
+                stagePadding: 20,
+                margin: 20,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplaySpeed: 1000,
+                autoplayHoverPause: false,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    }
+
+                    ,
+                    600: {
+                        items: 2
+                    }
+
+                    ,
+                    991: {
+                        items: 3
+                    }
+
+                    ,
+                    1200: {
+                        items: 4
+                    }
+                }
+            })
+        }) </script>
+    <!-- //for services carousel slider -->
+
+    <!-- theme switch js (light and dark)-->
+    <script src="assets/js/theme-change.js"></script>
+    <!-- //theme switch js (light and dark)-->
+
+    <!-- MENU-JS -->
+    <script>$(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            }
+
+            else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+
+        // loader
+        var loader = function () {
+            // Show loader
+            $("#ftco-loader").addClass("show");
+
+            // Hide loader after document is fully loaded
+            window.onload = function () {
+                setTimeout(function () {
+                    if ($("#ftco-loader").length > 0) {
+                        $("#ftco-loader").removeClass("show");
+                    }
+                }
+
+                    , 1000);
+            }
+
+                ;
+        }
+
+            ;
+
+        loader();
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <script>$(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap -->
+    <!-- //Js scripts -->
+    <!-- BaguetteBox JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+
+    <script>
+        baguetteBox.run('.gallery');
+    </script>
+</body>
+
+</html>
